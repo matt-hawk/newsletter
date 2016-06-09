@@ -101,7 +101,7 @@
         padding-right: 30px;
         padding-bottom: 10px;
     }
-    table[class="primary"] td.button a span { display: none; }
+    table[class="primary"] td.button span { display: none; }
 
     table[class="secondary"] table[class="responsive-table"] { width: 47%; }
     table[class="secondary"] table[class="img-col"] img { width: 100%; height: 50%; }
@@ -127,6 +127,7 @@
         text-decoration: underline;
         text-align: left;
     }
+    table[class="secondary"] td.button span { color: #e00000; }
     table[class="secondary"] .mobile-button {
         font-size: 12px;
         font-family: Arial, Helvetica, sans-serif;
